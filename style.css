@@ -1,0 +1,92 @@
+*{
+    margin:0px;
+    padding:0px;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+    font-family: Arial, Helvetica, sans-serif;
+}
+html,body{
+    background-color: black;
+    color:white;
+
+}
+.navbar{
+    display:flex;
+    position:fixed;
+    top:0px;
+   
+    margin: 0 auto;
+    padding: 0 40px;
+    z-index:1000;
+    margin-top: 3px;
+   
+    backdrop-filter: blur(10px);
+
+}
+.nav-logo{
+    
+    
+    margin-top: 5px;
+  
+}
+.nav-logo svg{
+    width:100px;
+    height:auto;
+}
+.nav-links{
+    display: flex;
+    gap:10px;
+    justify-content:center;
+    align-items: center;
+    margin-top: 0px;
+    margin-left:22rem;
+    
+    
+}
+.nav-links a{
+    color:white;
+    font-weight: bold;
+    font-size: 15px;
+    margin:0px 10px;
+    text-decoration: none;
+}
+
+.nav-buttons{
+    display:flex;
+    align-items: center;
+    justify-content: space-evenly;
+   
+    margin-left: 6rem;
+    gap:10px;
+}
+.nav-buttons a{
+    color:white;
+    text-decoration:none;
+
+}
+.nav-buttons a:hover{
+    color:lightgrey;
+}
+.black{
+    background-color:black;
+    color: white;
+    padding:5px 12px;
+    border-radius: 25px;
+    border:0.1px solid white;
+    font-size: 13px;
+}
+.black:hover{
+    transform:scale(1.0001);
+}
+.white{
+    background-color: white;
+    color:black;
+    padding:5px 12px;
+    border-radius: 25px;
+    border:0.1px solid white;
+    font-size: 13px;
+}
+.white:hover{
+    transform:scale(1.0001);
+    background-color:lightgrey;
+}
