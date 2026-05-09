@@ -12,22 +12,22 @@ html,body{
 }
 .navbar{
     display:flex;
-    position:fixed;
+    position:sticky;
     top:0px;
-   
-    margin: 0 auto;
-    padding: 0 40px;
+  
+    margin:0px auto;
+    padding: 0px;
     z-index:1000;
-    margin-top: 3px;
-   
-    backdrop-filter: blur(10px);
-
+     backdrop-filter:blur(10px);
+    background:rgba(0,0,0,0.6);
+    left:0px;
+    width:100%;
+    
 }
 .nav-logo{
-    
-    
-    margin-top: 5px;
-  
+   
+    margin-left:10px;
+    margin-top: 10px;
 }
 .nav-logo svg{
     width:100px;
@@ -35,11 +35,11 @@ html,body{
 }
 .nav-links{
     display: flex;
-    gap:10px;
+    gap:5px;
     justify-content:center;
     align-items: center;
-    margin-top: 0px;
-    margin-left:22rem;
+    margin-top: 10px;
+    margin-left:19rem;
     
     
 }
@@ -55,8 +55,8 @@ html,body{
     display:flex;
     align-items: center;
     justify-content: space-evenly;
-   
-    margin-left: 6rem;
+    margin-top: 10px;
+    margin-left: 13rem;
     gap:10px;
 }
 .nav-buttons a{
@@ -67,26 +67,123 @@ html,body{
 .nav-buttons a:hover{
     color:lightgrey;
 }
-.black{
+.nav-black{
+    display:flex;
+    justify-content: center;
+    align-items: center;
     background-color:black;
     color: white;
     padding:5px 12px;
     border-radius: 25px;
     border:0.1px solid white;
     font-size: 13px;
+    
 }
-.black:hover{
+.nav-black:hover{
     transform:scale(1.0001);
 }
-.white{
+.nav-white{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    gap:2px;
     background-color: white;
     color:black;
+    font-weight:50px;
     padding:5px 12px;
     border-radius: 25px;
     border:0.1px solid white;
     font-size: 13px;
+    letter-spacing: 1px;
+
 }
-.white:hover{
+.nav-white:hover{
     transform:scale(1.0001);
     background-color:lightgrey;
+}
+
+.hero-content{
+    
+    margin-top: 120px;
+    margin-left:20px;
+}
+.hero-content p{
+    
+    font-size:32px;
+}
+.hero-buttons{
+    display:flex;
+    align-items: center;
+    justify-content:center;
+    
+    margin-left:20px;
+    margin-top: 20px;
+    width:fit-content;
+    gap:20px;
+}
+.hero-white{
+    display:flex;
+    align-items: center;
+    justify-content:center;
+    padding:10px 20px;
+    border-radius: 30px;
+}
+.hero-white p{
+    font-size:16px;
+    
+}
+.hero-black{
+    display:flex;
+    align-items: center;
+    justify-content:center;
+    padding:10px 20px;
+    border-radius: 20px;
+    gap:5px;
+    background-color:rgb(34, 33, 29);
+
+}
+.hero-black p{
+    color:white;
+    font-size:16px;
+}
+.hero-black svg{
+    color:white;
+}
+.hero-white:hover {
+    background: rgba(255, 255, 255, 0.774);
+    
+}
+.hero-black:hover{
+    background: rgba(34,33,29,0.85);
+}
+.hero-image{
+    width: calc(100% - 40px);
+    background: url(./assets/cursor-wallpaper.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    border-radius:10px;
+    padding: 40px;
+    min-height: 700px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top:50px;
+    position:relative;
+    margin-left:20px;
+    margin-right:20px;
+}
+.hero-image1{
+    border:1px solid red;
+    max-width:100%;
+    min-height:auto;
+    border-radius: 10px;
+}
+.hero-image2{
+    max-width: 32%;
+    min-height:auto;
+    border-radius: 10px;
+    position: absolute;
+    top: 49%;
+    left: 58%;
 }
