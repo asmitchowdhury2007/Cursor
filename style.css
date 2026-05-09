@@ -71,7 +71,8 @@ html,body{
     display:flex;
     justify-content: center;
     align-items: center;
-    background-color:black;
+    background-color: #1b1912;
+    border: 1px solid #201e17;
     color: white;
     padding:5px 12px;
     border-radius: 25px;
@@ -171,10 +172,10 @@ html,body{
     margin-top:50px;
     position:relative;
     margin-left:20px;
-    margin-right:20px;
+   
 }
 .hero-image1{
-    border:1px solid red;
+    
     max-width:100%;
     min-height:auto;
     border-radius: 10px;
@@ -187,3 +188,36 @@ html,body{
     top: 49%;
     left: 58%;
 }
+.trusted {
+    padding-bottom: 90px;
+    
+}
+.trusted-para{
+    margin-top:65px;
+    text-align: center;
+    font-size: 15px;
+
+}
+.trusted-companies{
+    width: calc(100% - 40px);
+    display:grid;
+    grid-template-columns: repeat(8,1fr);
+    gap:10px;
+    margin-top:20px;
+    margin-left:20px;
+}
+.company{
+    background-color: #1b1912;
+    padding: 24px 12px;
+    border-radius: 5px;
+    border: 1px solid #201e17;
+    letter-spacing: 1px;
+    flex: 1;
+    min-width: 120px;
+    margin-top:
+}
+.company svg{
+    width:8vw;
+    height:8vh;
+}
+
