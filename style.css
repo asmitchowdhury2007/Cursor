@@ -265,10 +265,8 @@ html,body{
     background-size: cover;
     position:relative;
     width:calc(100%);
-    margin-top:15px;
-    margin-right:15px;
-    margin-bottom: 15px;
-    margin-left:15px;
+    margin:15px 15px;
+    
 
     
 }
@@ -424,6 +422,7 @@ html,body{
   width: 44px;
   height: 44px;
   border-radius: 4px; 
+  gap:10px;
 }
 
 .image-1 {
@@ -451,7 +450,7 @@ html,body{
 }
 .author-info {
   margin-top: 20px;
-  margin-left: 55px;
+  margin-left: 70px;
   
 }
 
@@ -464,4 +463,118 @@ html,body{
 .author-role {
   font-size: 14px;
   opacity: 0.6;
+}
+.Frontier{
+    margin-top: 40px;
+    padding: 0 20px;
+}
+
+.frontier-top{
+    font-size: 32px;
+    margin-bottom: 20px;
+}
+
+.frontier-grid{
+    display: grid;
+    grid-template-columns: repeat(3, 0.5fr);
+    gap: 20px;
+    width:calc(100%-40px);
+}
+
+.frontier-content{
+    background-color: #1b1912;
+    border: 1px solid #2a2520;
+    border-radius: 12px;
+    padding: 24px;
+    overflow: hidden;
+    
+}
+
+.frontier-heading{
+    font-size: 18px;
+    font-weight: 500;
+    margin-bottom: 10px;
+}
+
+.frontier-para{
+    font-size: 16px;
+    line-height: 1.6;
+    color: #9c9c9c;
+    margin-bottom: 20px;
+}
+
+.frontier-link{
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    color: orangered;
+    text-decoration: none;
+    margin-bottom: 25px;
+}
+
+.frontier-link svg{
+    width: 18px;
+    height: 18px;
+}
+
+
+
+.frontier-image-content-1,
+.frontier-image-content-2,
+.frontier-image-content-3{
+    background-image: url(./assets/background-image2.png);
+    background-size: cover;
+    background-position: center;
+    border-radius: 12px;
+    overflow: hidden;
+    
+    margin-top: 25px;
+
+    height: 420px;  
+    position: relative;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+}
+
+
+.frontier-image-1{
+    width: 90%;
+    margin: 55px auto 0;
+    display: block;
+    border-radius: 12px;
+}
+
+.frontier-image-2{
+    width: 60%;
+    position: absolute;
+    top:30%;
+    bottom: 20px;
+    left: 90px;
+    border-radius: 12px;
+}
+
+
+
+.frontier-image-3{
+    width: 85%;
+    margin: 80px auto 0;
+    display: block;
+    border-radius: 12px;
+}
+
+.frontier-image-4{
+    width: 70%;
+    margin: 20px auto 0;
+    display: block;
+    border-radius: 12px;
+}
+
+
+.frontier-image-5{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 12px;
 }
