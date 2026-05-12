@@ -622,6 +622,7 @@ html,body{
 
 .date{
     font-size: 15px;
+    color:grey;
 }
 .changelog-content{
   font-size: 17px;
@@ -689,4 +690,83 @@ html,body{
     margin-top:10px;
     top: 1%;
     left:0%;
+}
+.highlights{
+    max-width: 1400px;
+    margin: 120px auto;
+    padding: 0 20px;
+    position: relative;
+}
+.section-title{
+    font-size:22px;
+    
+}
+.highlights-grid{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 12px;
+    margin-top: 20px;
+    margin-bottom: 30px;
+}
+.highlights-item{
+    background-color: #1b1912;
+    padding: 20px;
+    border-radius: 4px;
+    border: 1px solid #211e18;
+}
+.highights-content{
+    font-size: 15px;
+    font-weight:20px;
+    line-height: 1.3;
+    text-decoration: none;
+}
+.details-1{
+    display:flex;
+    align-items: center;
+    gap:5px;
+    margin-bottom:5px;
+    
+    background-repeat: no-repeat;
+    background-size: cover;
+    position:relative;
+    width:calc(100%);
+    
+    
+
+    
+}
+.details-image-1{
+    border-radius:50%;
+    margin-top:10px;
+    top: 1%;
+    left:0%;
+}
+.details-2{
+    display:flex;
+    align-items: center;
+    gap:1px;
+    margin-bottom:5px;
+    
+    background-repeat: no-repeat;
+    background-size: cover;
+    position:relative;
+    width:calc(100%);
+    
+}
+.details-image-2{
+    border-radius:50%;
+    margin-top:10px;
+    top: 1%;
+    left:0%
+}
+.details-image-3{
+    border-radius:50%;
+    margin-top:10px;
+    top: 1%;
+    left:0%
+    
+}
+.highlight-link{
+    color: orangered;
+    text-decoration: none;
 }
