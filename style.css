@@ -696,6 +696,7 @@ html,body{
     margin: 120px auto;
     padding: 0 20px;
     position: relative;
+    
 }
 .section-title{
     font-size:22px;
@@ -770,3 +771,114 @@ html,body{
     color: orangered;
     text-decoration: none;
 }
+.section-ending{
+    
+    padding-top:140px;
+    padding-left: 160px;
+    padding-right: 160px;
+    padding-bottom:20px;
+
+}
+.highlights-heading{
+    text-align: center;
+    font-size: 70px;
+    font-weight:530;
+}
+.highlights-button{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+   
+}
+.Download-button{
+    display:flex;
+    align-items: center;
+    justify-content:center;
+    padding:15px 30px;
+    border-radius: 40px;
+
+}
+.Download-button:hover{
+    background: rgba(255, 255, 255, 0.774);
+}
+.footer{
+    background-color: #1b1912;
+    padding-top:60px;
+    
+}
+.footer-links {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    gap: 2px;
+    
+    padding-bottom: 30px;
+    margin-left: 20px;
+  
+}
+
+.footer-column {
+  display: flex;
+  flex-direction: column;
+  padding-left: 6px;
+}
+
+.column-title {
+    font-size: 11px;
+    font-weight: 600;
+    color: grey;
+    
+    letter-spacing: 0.8px;
+    margin-bottom: 18px;
+    text-transform: uppercase;
+}
+
+.link-list {
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  
+}
+.footer-link{
+    text-decoration: none;
+    color: white;
+    font-size:14px;
+}
+.footer-bottom {
+  display: flex;
+  justify-content:space-between;
+  align-items: center;
+  padding-top: 0;
+  padding-bottom: 50px;
+  
+  margin-left:20px;
+  margin-right: 20px;
+}
+.selector{
+    display: flex;
+    justify-content:space-evenly;
+    align-items: center;
+    
+    
+}
+.theme-switcher{
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+.selection{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.copyright {
+    font-size: 14px;
+  
+   color: lab(100% 0 0 / .7);
+font-weight: 400;
+}
+
